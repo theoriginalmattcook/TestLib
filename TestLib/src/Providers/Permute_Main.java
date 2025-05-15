@@ -3,7 +3,7 @@ package Providers;
 public class Permute_Main {
 
 	public static void main(String[] args) {
-		int[][] seqArrPermutations = Permute.permuteTo2D_Array(0, 4);
+		int[][] seqArrPermutations = Permute.permuteTo2D_Array(0, 8);
 		System.out.printf("%s%n",  arraysToString(seqArrPermutations));
 	}
 	
@@ -50,7 +50,6 @@ public class Permute_Main {
 			}
 			str = str + "]";
 			return str;
-
 	}
 
 }
